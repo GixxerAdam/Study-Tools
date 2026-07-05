@@ -1,13 +1,21 @@
-CySA+ PWA v2 update
+CySA+ Study Tool — PBQ Lab update (v3)
 
-Upload these four files to the ROOT of your GitHub repository, replacing the existing files:
+Upload EVERYTHING in this folder to the ROOT of your GitHub repository and choose “Replace” when GitHub asks. Keep the pbq-assets folder structure intact.
+
+Required root files:
 - index.html
 - sw.js
 - manifest.webmanifest
 - icon.svg
+- pbq-assets/ (folder)
 
-Commit directly to main. GitHub Pages will update in about 1–5 minutes.
+After committing:
+1. Wait about 1–5 minutes for GitHub Pages.
+2. On PC, refresh with Ctrl+F5.
+3. On iPhone, open the website once in Safari. If you have it on your Home Screen, close it fully and reopen it so the new cache takes effect.
 
-On iPhone: open the site in Safari and refresh once. If the old app is installed on your Home Screen, close it, open the website in Safari once, then reopen the Home Screen app. The updated service worker will replace the old cached version.
-
-Important: v2 uses a fresh local progress store because the older version had malformed parsing in later questions.
+Changes:
+- Adds a PBQ Lab tab with all 13 visual/simulation items.
+- Includes source exhibit pages, full-screen image viewer, study notes, and a PBQ reviewed checklist.
+- Keeps 558 text-answerable questions in the normal question bank; PBQ items no longer affect its scoring.
+- Preserves existing normal question progress from the v2 browser storage key.
